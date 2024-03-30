@@ -1,0 +1,279 @@
+/*estilos da pagina*/
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+ 
+}
+
+body{
+    display: flex;
+    overflow-x: hidden;
+   
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+
+/*estilização do menu horizontal*/
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #152A40;
+    font-family: "Jura", sans-serif;
+    font-weight: 700;
+    height: 8vh;
+    width: 100%;
+    position: fixed;
+ 
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    font-size: 2rem;
+    letter-spacing: 3px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+/*estilização da página home*/
+
+.name-and-img{
+    display: flex;
+    background-color: #152A40;
+    height: 100vh;
+    width: 100vw;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row-reverse;
+   
+}
+
+.foto-perfil{
+    width: 40rem;
+    height: 40rem;
+    margin-left: 35rem;
+    border-radius: 50%;
+    margin-right: 5rem;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.meu-nome{
+
+    font-family: "Josefin Slab", serif;
+    color: #BEFF35;
+    font-size: 8rem;
+    margin-left: 10rem;
+    margin-bottom: 5rem;
+
+}
+
+
+.sobre{
+   
+    color:#F2D4A8;
+    font-size: 2rem;
+    margin-left: 10rem;
+    font-family: "JetBrains Mono", monospace;
+
+ 
+}
+
+/*estilização da página portfólio*/
+
+.experiencias{
+    display: flex;
+    background-color: #152A40;
+    height: 100vh;
+    overflow-x: hidden;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+
+.text-container2{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    gap: 5rem;
+    
+    
+   
+}
+
+.titulo-curriculo{
+    color: #BEFF35;
+    font-size: 6rem;
+    font-family: "Josefin Slab", serif;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+
+.descricao{
+    color: #F2D4A8;
+    font-size: 2rem;
+    font-family: "JetBrains Mono", monospace;
+    margin-left: 2rem;
+    width: 100rem;
+}
+
+.hardskills{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    align-items: start;
+    justify-content: space-around;
+   
+}
+
+.tool{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1.75rem;
+}
+
+.Java-Logo, .Python-Logo, .Csharp-Logo, .HTML5-Logo, .CSS3-Logo, .JS-Logo, .MySQL-Logo {
+    width: 15rem;
+    height: 15rem;
+}
+
+
+.Java-Name, .Python-Name, .Csharp-Name, .HTML5-Name, .CSS3-Name, .JS-Name, .MySQL-Name {
+    font-size: 4.5rem;
+    color: #B85D29;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+/*estilização da página portfólio*/
+
+.portfolio-container{
+    display: flex;
+    background-color: #152A40;
+    height: 100vh;
+    align-items: flex-end;
+    
+}
+
+.portfolio-title{
+    color: #BEFF35;
+    font-size: 6rem;
+    font-family: "Josefin Slab", serif;
+    margin-left: 4rem;
+    align-self: flex-start;
+}
+
+.projeto1, .projeto2{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 5rem;
+}
+
+.projeto2{
+    margin-top: 10rem;
+}
+
+.titulo-p1, .titulo-p2{
+    font-size: 3rem;
+    color: #B85D29;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.foto-p1, .foto-p2{
+    height: 50rem;
+    width: 50rem;
+}
+
+.link-button1, .link-button2{
+    padding: 2rem 3rem;
+    width: 20rem;
+    cursor: pointer;
+    border: 0px;
+    color: white;
+    border-radius: 20px;
+    background-color: #5A1492;
+    font-family: "Jura", sans-serif;
+    font-size: 2.5rem;
+}
+
+/*estilização da página contato*/
+
+.contato-container{
+    height: 100vh;
+    background-color: #152A40;
+    flex-direction: column;
+}
+
+.text-container3{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    height: 30%;
+    
+}
+
+.contato-title{
+    color: #BEFF35;
+    font-size: 6rem;
+    font-family: "Josefin Slab", serif;
+    margin-left: 4rem;
+    margin-top: 15rem;
+}
+
+.contato{
+    color: #F2D4A8;
+    font-size: 3rem;
+    font-family: "JetBrains Mono", monospace;
+    margin-left: 2rem;
+}
+
+.redes-container{
+    display: flex;
+    height: 50%;
+    align-items: end;
+    justify-content: space-evenly;
+}
+
+.GitHub, .Linkedin, .Zap, .Gmail{
+    width: 15rem;
+    height: 15rem;
+    margin-bottom: 10rem;
+}
+
+.Gmail{
+    width: 18rem;
+}
