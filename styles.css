@@ -19,9 +19,7 @@ html{
 }
 
 body{
-    display: flex;
     overflow-x: hidden;
-   
 }
 
 a:hover{
