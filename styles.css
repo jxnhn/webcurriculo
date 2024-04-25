@@ -56,12 +56,15 @@ nav {
 }
 
 /*estilização da página home*/
+section{
+    height: 100vh;
+}
 
 .name-and-img{
     display: flex;
     background-color: #152A40;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     justify-content: flex-end;
     align-items: center;
     flex-direction: row-reverse;
@@ -108,7 +111,7 @@ nav {
 .experiencias{
     display: flex;
     background-color: #152A40;
-    height: 100vh;
+    height: 100%;
     overflow-x: hidden;
     justify-content: flex-start;
     flex-direction: column;
@@ -178,7 +181,7 @@ nav {
 .portfolio-container{
     display: flex;
     background-color: #152A40;
-    height: 100vh;
+    height: 100%;
     align-items: flex-end;
     
 }
@@ -231,7 +234,7 @@ nav {
 /*estilização da página contato*/
 
 .contato-container{
-    height: 100vh;
+    height: 100%;
     background-color: #152A40;
     flex-direction: column;
 }
